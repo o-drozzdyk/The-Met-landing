@@ -1,7 +1,17 @@
-@import "utils";
-@import "fonts";
-@import "typography";
+@import "utils/reset.css";
+@import "utils/variables";
+@import "utils/mixins";
 
-body {
-  background: $c-gray;
-}
+@import "blocks/page";
+@import "blocks/header";
+@import "blocks/top-bar";
+@import "blocks/icon";
+@import "blocks/menu";
+@import "blocks/nav";
+
+@import "blocks/section-title";
+@import "blocks/museum-hours";
+@import "blocks/now-on-view";
+@import "blocks/explore-online";
+@import "blocks/contacts";
+@import "blocks/footer";
